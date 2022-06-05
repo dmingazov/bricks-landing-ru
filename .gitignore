@@ -1,0 +1,8 @@
+\#src
+node_modules
+gulpfile.js
+howtouse.txt
+howtouseOld.txt
+package.json
+package-lock.json
+version.json

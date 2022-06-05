@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+	 <head>
+	<meta charset="UTF-8">
+	<title>Bricks</title>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Bricks - удобный мультиплатформенный заметочник, позволяющий производить расчеты внутри текста">
+	
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<meta name="robots" content="noindex, nofollow"> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<div class="back-q _scr-item"></div>
+		<div class="wrapper">
+			<header class="header @@modyfi">
+	<div class="header__container _container">
+		<div class="header__triangle _scr-item-load"></div>
+		<div class="header__logo-container"><a class="header__logo-link _scr-item-load" href="/"><img class="header__logo" src="img/bricks_logo.svg" alt="Логотип Bricks"></a></div>
+		<h1 class="header__title _scr-item-load">Bricks</h1>
+	</div>
+	<div class="header__round-links">
+	    <div class="header__lang-switch-container">
+			<!-- <div class="header__lang-switch-el"><a href="[[+url]]" class="header__lang-switch-el-link header__lang-switch-el-link--[[+cultureKey]][[+active:notempty=` _active`]]">[[+cultureKey]]</a></div> -->
+	        <div class="header__lang-switch-el"><a class="header__lang-switch-el-link header__lang-switch-el-link--ru _active">ru</a></div>
+	    </div>
+	    <div class="header__round-link-block"><a class="header__round-link header__round-link--doc" href="docs.html"></a><span>Документация</span></div>
+	</div>
+</header>
+			<main class="page docs">
+				<div class="_container">
+					<div class="docs__row _tabs _scr-item-load">
+						<div class="docs__column">
+							<div class="docs__tab">
+								<ul class="docs__tab-list-container">
+									<li class="docs__tab-list-element"><a class="docs__tab-list-link _tabs-item"><span>О приложении</span></a></li><li class="docs__tab-list-element"><a class="docs__tab-list-link _tabs-item"><span>Использование</span></a></li><li class="docs__tab-list-element"><a class="docs__tab-list-link _tabs-item"><span>Расширенные возможности</span></a></li><li class="docs__tab-list-element"><a class="docs__tab-list-link _tabs-item"><span>Синтаксис</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="docs__column">
+							<div class="docs__main text-section">
+								<div class="docs__main-block _tabs-block"><h1>About</h1> <div class="text-section__attention">We are constantly improving the application, adding more valuable features to it.<br /> We appreciate your feedback!<br /> <a href="https://shipright.community/getbricks">Please, submit your feedback!</a></div> <h3>Notepad + Calculator</h3> <p>Bricks is a combo of a note-taking app and <i>multi-line calculator.</i></p> <b>Calculator on steroids.</b> <p class="text-section__list-title">For whom Bricks could be useful to:</p> <ul> <li>Students and teachers to work on math/physics problems and solutions</li> <li>Engineers and IT professionals (to do and keep/share calculations/analyses)</li> <li>For those who do budgeting, costing</li> <li>For those who wants to keep track of spendings and shopping lists</li> <li>For anyone who wants to have notepad and calculator at hand.</li> </ul> <p class="text-section__list-title">Beside just keeping short notes, Bricks provides the following features:</p> <ul> <li>Keeping everyday notes by mixing text and calculations</li> <li>Sharing a copy of a note by clicking on the 'share' button and paste the link from clipboard</li> <li>Reusing results of previous expressions (Results obtained from previous lines can be reused in the following lines)</li> <li>Creating named variables and functions</li> <li>Handy percentage functions and other math functions.</li> <li>Remains available and functional even if with no internet connection</li> <li>It can be used on mobile and desktop. You can even create an icon for it as you do for regular apps (click '+' on the browser, near bookmark star).</li> <li>It keeps your data safe in a local database, and it won't change or disappear until you delete or change it manually.</li> </ul> <p>Bricks keeps all your notes secure and safe inside the browser database.</p></div><div class="docs__main-block _tabs-block"><h1>General Usage</h1> <div class="text-section__attention">We are constantly improving the application, adding more valuable features to it.<br /> We appreciate your feedback!<br /> <a href="https://shipright.community/getbricks">Please, submit your feedback!</a></div> <h3>Calculations and their meaning</h3> <p>In contrast to the classical calculators, Bricks allows you to express calculations in a few lines in a meaningful and connected way.</p> <p>This makes Bricks somewhat similar to Excel. To be more useful, Bricks allows you to mix calculations and text. It scans for calculations inside the text, and then if the found expression is grammatically correct, Bricks will calculate it and display the result.</p> <p>(See <a href="https://getbricks.app/docs/grammar-usage">grammar</a> page for more information about available expressions).</p> <picture><source srcset="img/docs/docs2-1.webp" type="image/webp" /><img alt="" src="img/docs/docs2-1.png" /></picture> <hr /> <h3>Reusable results</h3> <p>It's possible to reuse obtained results (declared on the upper lines) by clicking on them. After you click on a result, it is placed in the current position where the cursor is located. Note that reused results cannot be edited directly. In order to change them, you need to change their original expressions. Note also that an original expression can itself be composed of other reused results.</p> <p>There is also another way to reuse values, through the use of <a href="https://getbricks.app/docs/extended-features#custom-named-variables">named variables</a>.</p> <video autoplay="" loop=""><source src="videos/demo4_9.mp4" type="video/mp4" /></video> <h3>View modes</h3> <p class="text-section__list-title">Bricks has two modes to display results:</p> <ul> <li><b>Line mode</b> - result is placed under the current line (i.e., under the calculation).</li> <li><b>Column mode</b> - result is placed on the same line (as the calculation), but in the separate column.</li> </ul> <p>The image below shows the COLUMN mode:</p> <picture><source srcset="img/docs/docs2-2.webp" type="image/webp" /><img alt="" src="img/docs/docs2-2.png" /></picture> <p>Same data as above but in the LINE mode:</p> <picture><source srcset="img/docs/docs2-3.webp" type="image/webp" /><img alt="" src="img/docs/docs2-3.png" /></picture> <hr /> <h2>Notes</h2> <h3>Creating note</h3> <p>Press the "Add note.." button inside the Notes folder to create a new note.</p> <picture><source srcset="img/docs/docs2-4.gif" type="image/webp" /><img alt="" src="img/docs/docs2-4.gif" /></picture> <h3>Renaming note</h3> <p>Renaming is done in the main area of a note as shown in <a href="https://getbricks.app/docs/general-usage#creating-note">Creating note</a></p> <h3>Sharing note</h3> <p>Press “Share icon” to copy a shareable link into the clipboard. After this it can be pasted (from the clipboard: Ctrl + V) anywhere as a shared link. When another user opens the shared link, it will be placed in the “Shared with me” folder.</p> <picture><source srcset="img/docs/docs2-5.gif" type="image/webp" /><img alt="" src="img/docs/docs2-5.gif" /></picture> <h3>Deleting note</h3> <p>In order to delete a note, choose "Delete" from the shortcut menu.</p> <picture><source srcset="img/docs/docs2-6.gif" type="image/webp" /><img alt="" src="img/docs/docs2-6.gif" /></picture> <h2>Folders</h2> <p>Use folders to organize notes that share a similar meaning, like 'My expenses', 'Loans', 'Preliminary calculations', etc.</p> <picture><source srcset="img/docs/docs2-7.gif" type="image/webp" /><img alt="" src="img/docs/docs2-7.gif" /></picture></div><div class="docs__main-block _tabs-block"><h1>Extended features</h1> <div class="text-section__attention">We are constantly improving the application, adding more valuable features to it.<br /> We appreciate your feedback!<br /> <a href="https://shipright.community/getbricks">Please, submit your feedback!</a></div> <h3>Custom named variables</h3> <p>When <a href="https://getbricks.app/docs/general-usage#reusable-results">reusable results</a> are not enough, it's handy to use variables.</p> <p>To declare a variable you need to give it a name and assign a value to that name.</p> <picture><source srcset="img/docs/docs3-1.webp" type="image/webp" /><img alt="" src="img/docs/docs3-1.png" /></picture> <p>In the example below we assign three variables:</p> <div class="text-section__preview"> <div><span>my_variable = 1034 | 1034</span></div> <div><span>weight_of_the_box = 25Kg | 25 Kg</span></div> <div><span>weight_of_the_bag = 17Kg | 17 Kg</span></div> </div> <p>Further we can use them in our calculations:</p> <div class="text-section__preview"> <div><span>my_variable + 15 | 1049</span></div> <div><span>weight = weight_of_the_box + weight_of_the_bag | 42 Kg</span></div> <div><span>weight | 42 Kg</span></div> </div> <p>After assigning value to a variable, it can be used in further calculations.</p> <p>As with <a href="https://getbricks.app/docs/general-usage#reusable-results">reusable results</a>, changing the variable will trigger changes in all dependent calculations.</p> <video autoplay="" loop=""><source src="videos/docs3-2.mp4" type="video/mp4" /></video> <h3>Custom named calculations (functions)</h3> <p>If you have a formula that is frequently repeated across calculations, it is convenient to move it to a function, the so-called custom function.</p> <p>Custom functions are like macros in excel.</p> <p>In the example below, we created a <a href="https://en.wikipedia.org/wiki/Body_mass_index#Categories">BMI</a> function.</p> <picture><source srcset="img/docs/docs3-3.webp" type="image/webp" /><img alt="" src="img/docs/docs3-3.png" /></picture> <p>Here is a detailed usage example:</p> <picture><source srcset="img/docs/docs3-4.webp" type="image/webp" /><img alt="" src="img/docs/docs3-4.png" /></picture></div><div class="docs__main-block _tabs-block"><h1>Grammar</h1> <div class="text-section__attention">We are constantly improving the application, adding more valuable features to it.<br /> We appreciate your feedback!<br /> <a href="https://shipright.community/getbricks">Please, submit your feedback!</a></div> <h3>Simple arithmetics</h3> <div class="text-section__preview"> <div><span>2 + 2 // 4</span></div> <div><span>3 * 3 - 2 // 7</span></div> </div> <h3>Parentheses</h3> <p>Change natural <a href="https://en.wikipedia.org/wiki/Order_of_operations">operator precedence</a></p> <div class="text-section__preview"> <div><span>15 + 5 * 2 // 25 </span></div> <div><span>(15 + 5) * 2 // 40</span></div> </div> <h3>Mix text and math expressions</h3> <p>Sometimes it is very handy to add some clarifying text inside expressions</p> <div class="text-section__preview"> <div><span>Number 5 is just a number // 5</span></div> <div><span>Sum of 5 and + 5 // 10</span></div> </div> <h3>Number escape (or number comment)</h3> <p>It is possible to exclude number from evaluation by using symbol \</p> <div class="text-section__preview"> <div><span>\12 // the result will be empty</span></div> <div><span>7 + \2 33 // 40</span></div> <div><span>22 * 2 \3 and -1 // 43</span></div> </div> <h3>Sign</h3> <div class="text-section__preview"> <div><span>-10 // -10</span></div> <div><span>-5 + 5 // 0</span></div> <div><span>-1 + 5 // 4</span></div> </div> <h3>Shortcuts</h3> <p>See <a href="https://getbricks.app/docs/grammar-usage#prefixes">Prefixes</a></p> <div class="text-section__preview"> <div><span>1k // Shortcut for thousand 1000</span></div> <div><span>1M // Shortcut for million 1 000 000 </span></div> </div> <h3>Power</h3> <div class="text-section__preview"> <div><span>- 2 ^ 5 // 32</span></div> <div><span>- 10 ^ 3 // 1000 </span></div> <div><span>2 ^ 3 ^ 2 // 512</span></div> <div><span>- 10 ^ -3 // 0.001</span></div> </div> <h3>Percentages</h3> <div class="text-section__preview"> <div><span>1000 + 10% // 1100</span></div> <div><span>2 + 10% // 2.2</span></div> <div><span>10% * 1000 // 100</span></div> <div><span>1000 - 10% - 10% // 810</span></div> <div><span>10% * 10% // 0.01</span></div> <div><span>20 is 10% of // 200</span></div> <div><span>450 is 15% of // 3000</span></div> <div><span>10% of 1010 // 101</span></div> <div><span>10% of (300 * 2) // 60</span></div> <div><span>20 of 1000 to % //2%</span></div> <div><span>450 of 3000 to % //15%</span></div> <div><span>15 of 24 to % //62.5%</span></div> </div> <h3>Units</h3> <div class="text-section__preview"> <div><span>- Length </span></div> <div><span>meter (m), inch (in), foot (ft), yard (yd), mile (mi), link (li), rod (rd), chain (ch), angstrom, mil</span></div> <div><span>- Surface area </span></div> <div><span>m2, sqin, sqft, sqyd, sqmi, sqrd, sqch, sqmil, acre, hectare</span></div> <div><span>- Volume </span></div> <div><span>m3, litre (l, L, lt, liter), cc, cuin, cuft, cuyd, teaspoon, tablespoon</span></div> <div><span>- Liquid volume </span></div> <div><span>minim (min), fluiddram (fldr), fluidounce (floz), gill (gi), cup (cp), pint (pt), quart (qt), gallon (gal), beerbarrel (bbl), oilbarrel (obl), hogshead, drop (gtt)</span></div> <div><span>- Angles </span></div> <div><span>rad (radian), deg (degree), grad (gradian), cycle, arcsec (arcsecond), arcmin (arcminute)</span></div> <div><span>- Time second </span></div> <div><span>(s, secs, seconds), minute (mins, minutes), hour (h, hr, hrs, hours), day (days), week (weeks), month (months), year (years), decade (decades), century (centuries), millennium (millennia)</span></div> <div><span>- Frequency </span></div> <div><span>hertz (Hz)</span></div> <div><span>- Mass </span></div> <div><span>gram(g), tonne, ton, grain (gr), dram (dr), ounce (oz), poundmass (lbm, lb, lbs), hundredweight (cwt), stick, stone</span></div> <div><span>- Temperature </span></div> <div><span>kelvin (K), celsius (degC), fahrenheit (degF), rankine (degR)</span></div> <div><span>- Amount of substance</span></div> <div><span>mole (mol)</span></div> <div><span>- Luminous intensity</span></div> <div><span>candela (cd)</span></div> <div><span>- Force </span></div> <div><span>newton (N), dyne (dyn), poundforce (lbf), kip</span></div> <div><span>- Energy </span></div> <div><span>joule (J), erg, Wh, BTU, electronvolt (eV)</span></div> <div><span>- Power </span></div> <div><span>watt (W), hp</span></div> <div><span>- Pressure </span></div> <div><span>Pa, psi, atm, torr, bar, mmHg, mmH2O, cmH2O</span></div> <div><span>- Electricity and magnetism </span></div> <div><span>ampere (A), coulomb (C), watt (W), volt (V), ohm, farad (F), weber (Wb), tesla (T), henry (H), siemens (S), electronvolt (eV)</span></div> <div><span>- Binary</span></div> <div><span>bits (b), bytes (B)</span></div> </div> <h3>Prefixes</h3> <p>Decimal prefixes</p> <div class="text-section__preview"> <div><span>Name Abbreviation Value</span></div> <div><span>- deca da 1e1</span></div> <div><span>- hecto h 1e2</span></div> <div><span>- kilo k 1e3</span></div> <div><span>- mega M 1e6</span></div> <div><span>- giga G 1e9</span></div> <div><span>- tera T 1e12</span></div> <div><span>- peta P 1e15</span></div> <div><span>- exa E 1e18</span></div> <div><span>- zetta Z 1e21</span></div> <div><span>- yotta Y 1e24</span></div> <div><span>- deci d 1e-1</span></div> <div><span>- centi c 1e-2</span></div> <div><span>- milli m 1e-3</span></div> <div><span>- micro u 1e-6</span></div> <div><span>- nano n 1e-9</span></div> <div><span>- pico p 1e-12</span></div> <div><span>- femto f 1e-15</span></div> <div><span>- atto a 1e-18</span></div> <div><span>- zepto z 1e-21</span></div> <div><span>- yocto y 1e-24</span></div> <div><span>- kibi Ki 1024</span></div> <div><span>- mebi Mi 1024^2</span></div> <div><span>- gibi Gi 1024^3</span></div> <div><span>- tebi Ti 1024^4</span></div> <div><span>- pebi Pi 1024^5</span></div> <div><span>- exi Ei 1024^6</span></div> <div><span>- zebi Zi 1024^7</span></div> <div><span>- yobi Yi 1024^8</span></div> <div><span>- kilo k 1e3</span></div> <div><span>- mega M 1e6</span></div> <div><span>- giga G 1e9</span></div> <div><span>- tera T 1e12</span></div> <div><span>- peta P 1e15</span></div> <div><span>- exa E 1e18</span></div> <div><span>- zetta Z 1e21</span></div> <div><span>- yotta Y 1e24</span></div> </div></div>
+							</div>
+						</div>
+						<div class="docs__column">
+							<div class="docs__anchor">
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+	<div class="footer__container _container">
+		<div class="footer__row">
+			<ul class="footer__menu">
+				<li class="footer__menu-element"><a class="footer__menu-link" href="docs.html">Документация</a></li>
+				<!--<li class="footer__menu-element"><a class="footer__menu-link" href="[[~3]]">Блог</a></li>-->
+				<li class="footer__menu-element"><a class="footer__menu-link" href="userAgreement.html">Пользовательское соглашение</a></li>
+			</ul>
+			<p class="footer__copyright">Bricks © Copyright 2022</p>
+		</div>
+	</div>
+</footer>
+		</div>
+		<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+		<!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	</body>
+</html>
